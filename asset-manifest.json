@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/alexbird.design/static/css/main.1154b435.css",
-    "main.js": "/alexbird.design/static/js/main.c54ecf09.js",
+    "main.css": "/alexbird.design/static/css/main.c7fbb199.css",
+    "main.js": "/alexbird.design/static/js/main.6a519914.js",
     "static/media/BreezeContent1.gif": "/alexbird.design/static/media/BreezeContent1.6d48d748585cfdc72c08.gif",
     "static/media/BreezeContent2.gif": "/alexbird.design/static/media/BreezeContent2.081fac8fd6fccb972889.gif",
+    "static/media/output.gif": "/alexbird.design/static/media/output.285ca246f8a336a5893f.gif",
     "static/media/StyleGuide.png": "/alexbird.design/static/media/StyleGuide.020bb51a4ca7474f5bd8.png",
     "static/media/PetGift.png": "/alexbird.design/static/media/PetGift.06b05e9dbfab632f3a5d.png",
     "static/media/BabyGift.png": "/alexbird.design/static/media/BabyGift.950479943c32dccdd2fd.png",
@@ -27,11 +28,11 @@
     "static/media/Bird-2.svg": "/alexbird.design/static/media/Bird-2.3429cc1a9ac331277803.svg",
     "static/media/Bird-5.svg": "/alexbird.design/static/media/Bird-5.a099caf0edfda7442141.svg",
     "index.html": "/alexbird.design/index.html",
-    "main.1154b435.css.map": "/alexbird.design/static/css/main.1154b435.css.map",
-    "main.c54ecf09.js.map": "/alexbird.design/static/js/main.c54ecf09.js.map"
+    "main.c7fbb199.css.map": "/alexbird.design/static/css/main.c7fbb199.css.map",
+    "main.6a519914.js.map": "/alexbird.design/static/js/main.6a519914.js.map"
   },
   "entrypoints": [
-    "static/css/main.1154b435.css",
-    "static/js/main.c54ecf09.js"
+    "static/css/main.c7fbb199.css",
+    "static/js/main.6a519914.js"
   ]
 }
