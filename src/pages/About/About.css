@@ -1,0 +1,203 @@
+.about__main {
+  padding: 50px !important;
+  animation: opacityImg 0.5s ease-in-out forwards 1;
+}
+
+.main__content__col1 p {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  color: var(--secondary);
+  margin-bottom: 3rem !important;
+}
+
+.bigImagesContainer {
+  width: 100%;
+  height: 290px;
+  position: relative;
+}
+
+.bigImages {
+  width: 290px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  /* animation: opacityImg 0.1s 1 forwards ease-in-out; */
+}
+
+.profileBox {
+  margin-right: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.6;
+  transition: all 300ms;
+}
+
+.profileOpacity {
+  opacity: 1 !important;
+  transition: all 300ms;
+}
+
+.accordion .accordion-item {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.activeList {
+  border: 1px solid white !important;
+  background-color: black !important;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: none;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 0rem 0;
+  color: white;
+  background-color: transparent !important;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+  position: relative;
+  padding-left: 35px;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: white;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.arrowIcon1,
+.arrowIcon2,
+.arrowIcon3,
+.arrowIcon4,
+.arrowIcon5,
+.arrowIcon6 {
+  position: absolute;
+  top: 10px;
+  left: 0%;
+  margin-left: -15px;
+  margin-right: 15px;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+
+.rotateArrow1,
+.rotateArrow2,
+.rotateArrow3,
+.rotateArrow4,
+.rotateArrow5,
+.rotateArrow6 {
+  margin-left: 0px !important;
+  transform: rotate(90deg);
+  transition: all 0.3s;
+}
+
+.accordion button[aria-expanded="true"] {
+  color: white;
+  background-color: black !important;
+}
+
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 100rem;
+  transition: max-height 1s ease-in-out;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  background-color: black !important;
+  transition: max-height 0.5s;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-top: 1rem;
+  color: var(--secondary);
+}
+
+.extra__space__about{
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .extra__space__about{
+    height: 30rem;
+  }
+  
+  .about__main {
+    padding: 30px !important;
+  }
+  .porfile__div__col {
+    margin-top: 5rem !important;
+  }
+
+  .profileBox {
+    margin-top: 2rem;
+  }
+
+  .arrowIcon1,
+  .arrowIcon2,
+  .arrowIcon3,
+  .arrowIcon4,
+  .arrowIcon5,
+  .arrowIcon6 {
+    position: absolute;
+    top: 2px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bigImages {
+    width: 250px;
+  }
+
+  .profileBox {
+    margin-top: -3rem;
+  }
+
+  .profileBox img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .bigImages {
+    width: 200px;
+  }
+
+  .profileBox {
+    margin-top: -15rem;
+  }
+
+  .profileBox img {
+    width: 30px;
+  }
+}
