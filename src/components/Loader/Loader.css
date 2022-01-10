@@ -1,0 +1,215 @@
+.loader{
+  width: 300px;
+  height: 300px;
+  background-image: url(../../assets/bird-logo.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.circular {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  transform: scale(1.3);
+  border-radius: 50%;
+  animation: loaderShadow 0.5s forwards ease-in-out;
+  animation-delay: 2.5s;
+}
+
+@keyframes loaderShadow {
+  100% {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.32),
+      0px 0px 22.4px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.circular .inner,
+.circular .outer,
+.circular .circle {
+  position: absolute;
+  z-index: 6;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+.circular .inner {
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;
+  margin: -40px 0 0 -40px;
+  background-color: #000000;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: loaderColor 0.5s forwards ease-in-out;
+  animation-delay: 2.5s;
+}
+
+@keyframes loaderColor {
+  100% {
+    background-color: white;
+  }
+}
+
+.bg__img1 { 
+  width: 50px !important;
+  height: 50px !important;
+  margin-top: 5px;
+  background-image: url(../../assets/loader/Bird-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: movingBird 2.5s linear both;
+}
+
+.bg__img2 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  background-image: url(../../assets/loader/Bird-5.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: flyingBird 1s linear both;
+}
+
+@keyframes flyingBird {
+  50% {
+    background-image: url(../../assets/loader/Bird-5.svg);
+  }
+
+  100% {
+    background-image: url(../../assets/loader/Bird-6.svg);
+  }
+}
+
+@keyframes movingBird {
+  0% {
+    background-image: url(../../assets/loader/Bird-2.svg);
+  }
+
+  20% {
+    background-image: url(../../assets/loader/Bird-1.svg);
+  }
+
+  30% {
+    background-image: url(../../assets/loader/Bird-1.svg);
+  }
+
+  50% {
+    background-image: url(../../assets/loader/Bird-2.svg);
+  }
+
+  60% {
+    background-image: url(../../assets/loader/Bird-2.svg);
+  }
+
+  80% {
+    background-image: url(../../assets/loader/Bird-1.svg);
+  }
+
+  90% {
+    background-image: url(../../assets/loader/Bird-1.svg);
+  }
+
+  100% {
+    background-image: url(../../assets/loader/Bird-2.svg);
+  }
+}
+
+.circular .circle {
+  z-index: 1;
+}
+.circular .numb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.circular .bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  clip: rect(0px, 100px, 100px, 50px);
+}
+.circle .bar .progress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  background-color: white;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+
+.circle .left .progress {
+  z-index: 1;
+  animation: left 1s ease-in both;
+}
+@keyframes left {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  40% {
+    transform: rotate(90deg);
+  }
+
+  60% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.circle .right {
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right .progress {
+  animation: right 1s ease-in both;
+  animation-delay: 1.5s;
+}
+
+@keyframes right {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  40% {
+    transform: rotate(90deg);
+  }
+
+  60% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .loader__container {
+    padding: 30px;
+  }
+
+  .circular {
+    transform: scale(1.1);
+  }
+}
