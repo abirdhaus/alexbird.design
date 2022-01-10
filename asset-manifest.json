@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alexbird.design/static/css/main.4900691f.css",
-    "main.js": "/alexbird.design/static/js/main.f682cb63.js",
+    "main.js": "/alexbird.design/static/js/main.73072f8c.js",
     "static/media/BreezeContent1.gif": "/alexbird.design/static/media/BreezeContent1.6d48d748585cfdc72c08.gif",
     "static/media/BreezeContent2.gif": "/alexbird.design/static/media/BreezeContent2.081fac8fd6fccb972889.gif",
     "static/media/StyleGuide.png": "/alexbird.design/static/media/StyleGuide.020bb51a4ca7474f5bd8.png",
@@ -30,10 +30,10 @@
     "static/media/Bird-5.svg": "/alexbird.design/static/media/Bird-5.a099caf0edfda7442141.svg",
     "index.html": "/alexbird.design/index.html",
     "main.4900691f.css.map": "/alexbird.design/static/css/main.4900691f.css.map",
-    "main.f682cb63.js.map": "/alexbird.design/static/js/main.f682cb63.js.map"
+    "main.73072f8c.js.map": "/alexbird.design/static/js/main.73072f8c.js.map"
   },
   "entrypoints": [
     "static/css/main.4900691f.css",
-    "static/js/main.f682cb63.js"
+    "static/js/main.73072f8c.js"
   ]
 }
