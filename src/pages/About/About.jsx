@@ -472,7 +472,7 @@ const About = () => {
                 >
                   <img src="./images/arrow.svg" className="arrowIcon6" alt="" />
                   <span className="accordion-title">
-                    How do you make the internet a more magical place?
+                  So you invent new ways of shopping online?
                   </span>
                 </button>
                 <div className="accordion-content">
