@@ -350,9 +350,8 @@ const About = () => {
                 <div className="accordion-content">
                   <p>
                     I’m driven by a desire to humanize our collective experience
-                    of the internet. I believe technology is a universal
-                    language that connects and furthers our shared understanding
-                    of humanity.
+                    of the internet. I believe the convergence of technology & storytelling creates a universal
+                    language that furthers our shared understanding of humanity.
                   </p>
                   <p>
                     By building digital experiences that reimagine what online
@@ -425,7 +424,7 @@ const About = () => {
                   <p>
                     I’ve never stopped dreaming about what the internet could be
                     — a transformative & magical place where anything you can
-                    imagine is possible, trangible, and real.
+                    imagine is possible, tangible, and real.
                   </p>
                   <p>
                     I believe new technologies are the closest thing we’re ever
