@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alexbird.design/static/css/main.4900691f.css",
-    "main.js": "/alexbird.design/static/js/main.f55a63f6.js",
+    "main.js": "/alexbird.design/static/js/main.11775c80.js",
     "static/media/BreezeContent1.gif": "/alexbird.design/static/media/BreezeContent1.6d48d748585cfdc72c08.gif",
     "static/media/BreezeContent2.gif": "/alexbird.design/static/media/BreezeContent2.081fac8fd6fccb972889.gif",
     "static/media/StyleGuide.png": "/alexbird.design/static/media/StyleGuide.020bb51a4ca7474f5bd8.png",
@@ -24,16 +24,16 @@
     "static/media/BreezeProduct1.png": "/alexbird.design/static/media/BreezeProduct1.6ce26e134aabb159d824.png",
     "static/media/Bird-1.svg": "/alexbird.design/static/media/Bird-1.6f113d3a7140ad338f5c.svg",
     "static/media/Bird-6.svg": "/alexbird.design/static/media/Bird-6.1ef9cc96c706d2d587ef.svg",
+    "index.html": "/alexbird.design/index.html",
     "static/media/Nav-btn-desktop.svg": "/alexbird.design/static/media/Nav-btn-desktop.4203ea0c1c90c981f2c2.svg",
     "static/media/Bird-Flight-Dark.svg": "/alexbird.design/static/media/Bird-Flight-Dark.444a44332c1bf589db2f.svg",
     "static/media/Bird-2.svg": "/alexbird.design/static/media/Bird-2.3429cc1a9ac331277803.svg",
     "static/media/Bird-5.svg": "/alexbird.design/static/media/Bird-5.a099caf0edfda7442141.svg",
-    "index.html": "/alexbird.design/index.html",
     "main.4900691f.css.map": "/alexbird.design/static/css/main.4900691f.css.map",
-    "main.f55a63f6.js.map": "/alexbird.design/static/js/main.f55a63f6.js.map"
+    "main.11775c80.js.map": "/alexbird.design/static/js/main.11775c80.js.map"
   },
   "entrypoints": [
     "static/css/main.4900691f.css",
-    "static/js/main.f55a63f6.js"
+    "static/js/main.11775c80.js"
   ]
 }
