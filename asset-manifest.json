@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alexbird.design/static/css/main.4900691f.css",
+    "main.css": "/alexbird.design/static/css/main.8a37209c.css",
     "main.js": "/alexbird.design/static/js/main.11775c80.js",
     "static/media/BreezeContent1.gif": "/alexbird.design/static/media/BreezeContent1.6d48d748585cfdc72c08.gif",
     "static/media/BreezeContent2.gif": "/alexbird.design/static/media/BreezeContent2.081fac8fd6fccb972889.gif",
@@ -22,18 +22,18 @@
     "static/media/BreezeProduct3.png": "/alexbird.design/static/media/BreezeProduct3.a4e5a71f2b33e83d8fa7.png",
     "static/media/eko video embed-8.png": "/alexbird.design/static/media/eko video embed-8.06a5a7fbab6b75a3f8d1.png",
     "static/media/BreezeProduct1.png": "/alexbird.design/static/media/BreezeProduct1.6ce26e134aabb159d824.png",
-    "static/media/Bird-1.svg": "/alexbird.design/static/media/Bird-1.6f113d3a7140ad338f5c.svg",
-    "static/media/Bird-6.svg": "/alexbird.design/static/media/Bird-6.1ef9cc96c706d2d587ef.svg",
+    "static/media/Bird-1.svg": "/alexbird.design/static/media/Bird-1.081b919bd03fb06a701d.svg",
+    "static/media/Bird-6.svg": "/alexbird.design/static/media/Bird-6.60da14109bd576cf71ed.svg",
     "index.html": "/alexbird.design/index.html",
-    "static/media/Nav-btn-desktop.svg": "/alexbird.design/static/media/Nav-btn-desktop.4203ea0c1c90c981f2c2.svg",
-    "static/media/Bird-Flight-Dark.svg": "/alexbird.design/static/media/Bird-Flight-Dark.444a44332c1bf589db2f.svg",
-    "static/media/Bird-2.svg": "/alexbird.design/static/media/Bird-2.3429cc1a9ac331277803.svg",
-    "static/media/Bird-5.svg": "/alexbird.design/static/media/Bird-5.a099caf0edfda7442141.svg",
-    "main.4900691f.css.map": "/alexbird.design/static/css/main.4900691f.css.map",
+    "static/media/Nav-btn-desktop.svg": "/alexbird.design/static/media/Nav-btn-desktop.e1e4ea1c1ea682b2e9cf.svg",
+    "static/media/Bird-Flight-Dark.svg": "/alexbird.design/static/media/Bird-Flight-Dark.bfe02405b7598a4f8afa.svg",
+    "static/media/Bird-2.svg": "/alexbird.design/static/media/Bird-2.bde3bb6e74d81d71acd3.svg",
+    "static/media/Bird-5.svg": "/alexbird.design/static/media/Bird-5.58e10c6d5d5268928416.svg",
+    "main.8a37209c.css.map": "/alexbird.design/static/css/main.8a37209c.css.map",
     "main.11775c80.js.map": "/alexbird.design/static/js/main.11775c80.js.map"
   },
   "entrypoints": [
-    "static/css/main.4900691f.css",
+    "static/css/main.8a37209c.css",
     "static/js/main.11775c80.js"
   ]
 }
