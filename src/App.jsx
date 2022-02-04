@@ -12,7 +12,7 @@ const App = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            setLoader(!loader)
+            setLoader(false)
         }, 3500)
     }, [])
 
