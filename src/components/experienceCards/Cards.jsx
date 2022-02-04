@@ -380,21 +380,6 @@ const Card = () => {
 
       {/* Card 3 */}
 
-      <div className="card__box" onClick={handleSlideUp3}>
-        <div className="card__image">
-          <img src="./images/Square-2.png" alt="" />
-        </div>
-
-        <h3>Pet Gift Finder</h3>
-
-        <p>
-          Shop with expert pets, answering questions about your furry friend to find them the perfect
-          gift.
-        </p>
-      </div>
-
-      {/* Card 4 */}
-
       <div className="card__box" onClick={handleSlideUp4}>
         <div className="card__image">
           <img src="./images/Square-3.png" alt="" />
@@ -408,7 +393,7 @@ const Card = () => {
         </p>
       </div>
 
-      {/* Card 5 */}
+      {/* Card 4 */}
 
       <div className="card__box" onClick={handleSlideUp1}>
         <div className="card__image">
@@ -420,6 +405,21 @@ const Card = () => {
         <p>
           Shop for a new look with a fashion expert, and find new
           styles for different occasions.
+        </p>
+      </div>
+
+      {/* Card 5 */}
+
+      <div className="card__box" onClick={handleSlideUp3}>
+        <div className="card__image">
+          <img src="./images/Square-2.png" alt="" />
+        </div>
+
+        <h3>Pet Gift Finder</h3>
+
+        <p>
+          Shop with expert pets, answering questions about your furry friend to find them the perfect
+          gift.
         </p>
       </div>
 
@@ -446,9 +446,9 @@ const Card = () => {
 
           <Row className="p-0 m-0 pt-3">
             <Col
-              xxl={4}
-              xl={4}
-              lg={4}
+              xxl={6}
+              xl={6}
+              lg={6}
               md={6}
               sm={12}
               xs={12}
@@ -458,8 +458,8 @@ const Card = () => {
                 <iframe
                   id="card-iframe-5"
                   src=""
-                  data-src="https://de.eko.com/baby-gift-finder"
-                  title="That Moment When"
+                  data-src="https://video.eko.com/baby-gift-finder/V1W65G/embed?autoplay=true&pageViewId=37697131-4cff-4ff4-a11a-6dca31dfa5c1&clearcheckpoints=true&urlsmode=proxy&eauid=f2b54dad-b652-46dc-bf5a-796885542a72&easid=e617ec52-a7f8-4c65-87fe-586ad81d72a0&headnodeid=node_1_0_start_screen_1f2e10&embedapi=1.0&embedid=ekoembed-1&wcp=8636404&events=canplay%2Cplaying%2Cnodestart%2Cinteractions.report%2Cvariables.update%2Cplugininitvariables%2Ccontrol.replay%2Curls.intent%2Cend.started%2Cended%2Csubtitles.visibilitychange%2Csubtitles.substart%2Csubtitles.subend%2Csubtitles.effectivelanguagechange%2Cplugininit&cover=false&device=desktop"
+                  title="Baby Gift Finder"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
@@ -469,9 +469,9 @@ const Card = () => {
             </Col>
 
             <Col
-              xxl={8}
-              xl={8}
-              lg={8}
+              xxl={6}
+              xl={6}
+              lg={6}
               md={6}
               sm={12}
               xs={12}
@@ -482,12 +482,12 @@ const Card = () => {
 
                 <p>
                   As Product Lead, I concepted & designed this interactive baby
-                  gift finder experience.
+                  gift finder experience starring Tia Mowry.
                 </p>
 
                 <p>
                   I directed video production & dev teams to prototype & deliver
-                  iteratively, resulting in a shopper conversion rate of 15%.
+                  iteratively, resulting in a 50% clickthrough rate, converting engaged shoppers at a rate of 30%.
                 </p>
               </div>
 
@@ -756,7 +756,7 @@ const Card = () => {
                   id="card-iframe-3"
                   src=""
                   data-src="https://de.eko.com/pet-gift"
-                  title="That Moment When"
+                  title="Pwt Gift Finder"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
@@ -859,8 +859,8 @@ const Card = () => {
                 <iframe
                   id="card-iframe-4"
                   src=""
-                  data-src="https://video.eko.com/wsd-/the-sidequests?"
-                  title="That Moment When"
+                  data-src="https://video.eko.com/wsd-/the-sidequests?clearcheckpoints=true"
+                  title="Wizard Sidequest"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
@@ -997,7 +997,7 @@ const Card = () => {
                   id="card-iframe-1"
                   src=""
                   data-src="https://de.eko.com/style-guide-fall"
-                  title="That Moment When"
+                  title="Style Guide"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
