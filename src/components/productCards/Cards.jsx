@@ -478,8 +478,8 @@ const Card = () => {
         <h3>Car Seat Finder</h3>
 
         <p>
-          Find the right car seat at every age with a child safety expert, and
-          learn helpful tips along the way.{" "}
+          Find the right car seat with a child safety expert, and
+          learn helpful tips for every age along the way.{" "}
         </p>
       </div>
 
@@ -564,7 +564,7 @@ const Card = () => {
                   id="card-iframe-6"
                   src=""
                   data-src="https://de.eko.com/car-seat"
-                  title="That Moment When"
+                  title="Car Seat Finder"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
@@ -586,13 +586,13 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Product Lead, I worked with the Walmart Baby team to design
-                  & build this interactive car seat finder for kids of all ages.
+                  As Product Lead, I worked with the Walmart Baby team to design,
+                  build, & test this interactive car seat finder for kids of all ages.
                 </p>
 
                 <p>
                   By helping both new and experienced parents find the right
-                  seat, this experience solves clear consumer problems,
+                  seat, this experience solves real parenting problems,
                   converting engaged shoppers at rate of 20%.
                 </p>
               </div>
@@ -948,7 +948,7 @@ const Card = () => {
                   id="card-iframe-8"
                   src=""
                   data-src="https://de.eko.com/coffee-maker"
-                  title="That Moment When"
+                  title="Coffee Maker Finder"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
@@ -975,8 +975,7 @@ const Card = () => {
 
                 <p>
                   By helping novice and informed drinkers find the right makers
-                  & accessories, this experience answered real customer needs,
-                  converting engaged shoppers at a rate of 18%.
+                  this experience converted engaged shoppers at a rate of 18%.
                 </p>
               </div>
 
@@ -1140,7 +1139,7 @@ const Card = () => {
                   id="card-iframe-9"
                   src=""
                   data-src="https://de.eko.com/paint"
-                  title="That Moment When"
+                  title="Paint Finder"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
                   scrolling="no"
@@ -1166,7 +1165,7 @@ const Card = () => {
                 </p>
                 <p>
                   Using eko’s tech, we helped DIYers curate top colors & imagine
-                  how they’d look on the wall, converting shoppers at a rate of
+                  how they’d look on the wall, converting engaged shoppers at a rate of
                   17%.
                 </p>
                 <p>

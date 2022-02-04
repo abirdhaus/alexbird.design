@@ -353,16 +353,16 @@ const Card = () => {
     <Fragment>
       {/* Card 1 */}
 
-      <div className="card__box" onClick={handleSlideUp1}>
+      <div className="card__box" onClick={handleSlideUp5}>
         <div className="card__image">
-          <img src="./images/Square.png" alt="" />
+          <img src="./images/Square-9.png" alt="" />
         </div>
 
-        <h3>Style Guide</h3>
+        <h3>Baby Gift Finder</h3>
 
         <p>
-          Shopping for a new look? Get help from a fashion expert, and find new
-          styles for different occasions.
+          Shop with an expert mom, and build your dream gift for making memories
+          with baby.
         </p>
       </div>
 
@@ -375,7 +375,7 @@ const Card = () => {
 
         <h3>Fly with Breeze</h3>
 
-        <p>Reimagine airport food with this new consumer brand & service.</p>
+        <p>Reimagine airport food with this new consumer brand.</p>
       </div>
 
       {/* Card 3 */}
@@ -388,8 +388,8 @@ const Card = () => {
         <h3>Pet Gift Finder</h3>
 
         <p>
-          Get help from expert pets, answering questions to find the perfect
-          gift for your furry friend.
+          Shop with expert pets, answering questions about your furry friend to find them the perfect
+          gift.
         </p>
       </div>
 
@@ -410,26 +410,26 @@ const Card = () => {
 
       {/* Card 5 */}
 
-      <div className="card__box" onClick={handleSlideUp5}>
+      <div className="card__box" onClick={handleSlideUp1}>
         <div className="card__image">
-          <img src="./images/Square-4.png" alt="" />
+          <img src="./images/Square.png" alt="" />
         </div>
 
-        <h3>Baby Gift Finder</h3>
+        <h3>Style Guide</h3>
 
         <p>
-          Shop with an expert mom, and build your dream gift for making memories
-          with baby.
+          Shop for a new look with a fashion expert, and find new
+          styles for different occasions.
         </p>
       </div>
 
       {/* Card Slide 1 */}
 
-      <div className="card__detail__div1" allowTouchMove body-scroll-lock-ignore>
+      <div className="card__detail__div5" allowTouchMove body-scroll-lock-ignore>
         <Container fluid={true} className="p-0">
           <Row
             className="p-0 m-0 mb-4 cards__handle__row"
-            onClick={handleSlideDown1}
+            onClick={handleSlideDown5}
           >
             <Col
               xxl={12}
@@ -454,11 +454,11 @@ const Card = () => {
               xs={12}
               className="p-0 d-flex justify-content-center align-items-start"
             >
-              <div className="card__detail__img" id="myContainer">
+              <div className="card__detail__img5">
                 <iframe
-                  id="card-iframe-1"
+                  id="card-iframe-5"
                   src=""
-                  data-src="https://de.eko.com/style-guide-fall"
+                  data-src="https://de.eko.com/baby-gift-finder"
                   title="That Moment When"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
@@ -481,13 +481,13 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Product Lead for this fall fashion campaign, I concepted &
-                  designed this interactive lookbook experience.
+                  As Product Lead, I concepted & designed this interactive baby
+                  gift finder experience.
                 </p>
 
                 <p>
                   I directed video production & dev teams to prototype & deliver
-                  iteratively, resulting in a shopper conversion rate of 24%.
+                  iteratively, resulting in a shopper conversion rate of 15%.
                 </p>
               </div>
 
@@ -507,7 +507,10 @@ const Card = () => {
                 </ul>
               </div>
 
-              <div className="bottom__img" onClick={handleOpenFullImage1}></div>
+              <div
+                className="bottom__img bottom__img5"
+                onClick={handleOpenFullImage5}
+              ></div>
             </Col>
           </Row>
         </Container>
@@ -515,13 +518,13 @@ const Card = () => {
 
       {/* Full Image Div */}
 
-      <div className="bottom__full__image1" onClick={handleCloseFullImage1}>
+      <div className="bottom__full__image5" onClick={handleCloseFullImage5}>
         <AiOutlineCloseCircle
           className="closeIcon"
-          onClick={handleCloseFullImage1}
+          onClick={handleCloseFullImage5}
         />
 
-        <img src="./images/StyleGuide.png" alt="" />
+        <img src="./images/BabyGift.png" alt="" />
       </div>
 
       {/* Card Slide 2 */}
@@ -588,13 +591,13 @@ const Card = () => {
                     @flywithbreeze
                   </a>
                   , I led an agency team to concept & produce Breeze’s editorial
-                  content leading up to the first LAX location launch in 2020.
+                  content leading up to the first location launch in 2020.
                 </p>
 
                 <p>
                   Working with the founder to define the identity & voice, I led
                   creative strategy & content production to design a multitude
-                  of assets needed to educate customers for the brand’s launch.
+                  of assets needed to educate LAX customers about the new healthy foodservice.
                 </p>
               </div>
 
@@ -780,7 +783,7 @@ const Card = () => {
                 </p>
 
                 <p>
-                  Recommending over 800+ dog & cat products, this experience
+                  Recommending over 800+ dog & cat products, this delightful experience
                   answered 12+ unique customer needstates, and resulted in a
                   cumulative conversion rate of 23%.
                 </p>
@@ -880,8 +883,15 @@ const Card = () => {
 
                 <p>
                   As Creative Director, I concepted & designed this branded
-                  sidequest to accompany eko’s award-winning original series,
-                  <i>Wizard School Dropout</i>.
+                  sidequest to accompany eko’s award-winning original series,{" "}
+                  <a
+                    href="https://video.eko.com/shows/the-choice-is-yours/wizard-school-dropout/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                   <i>Wizard School Dropout</i>.
+                  </a>{" "}
+                  
                 </p>
 
                 <p>
@@ -953,11 +963,11 @@ const Card = () => {
 
       {/* Card Slide 5 */}
 
-      <div className="card__detail__div5" allowTouchMove body-scroll-lock-ignore>
+      <div className="card__detail__div1" allowTouchMove body-scroll-lock-ignore>
         <Container fluid={true} className="p-0">
           <Row
             className="p-0 m-0 mb-4 cards__handle__row"
-            onClick={handleSlideDown5}
+            onClick={handleSlideDown1}
           >
             <Col
               xxl={12}
@@ -982,11 +992,11 @@ const Card = () => {
               xs={12}
               className="p-0 d-flex justify-content-center align-items-start"
             >
-              <div className="card__detail__img5">
+              <div className="card__detail__img" id="myContainer">
                 <iframe
-                  id="card-iframe-5"
+                  id="card-iframe-1"
                   src=""
-                  data-src="https://de.eko.com/baby-gift-finder"
+                  data-src="https://de.eko.com/style-guide-fall"
                   title="That Moment When"
                   style={{ width: "100%", height: "100%", border: 0 }}
                   allowFullScreen
@@ -1009,13 +1019,13 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Product Lead, I concepted & designed this interactive baby
-                  gift finder experience.
+                  As UX Lead for this fall fashion campaign, I concepted & designed
+                  this interactive lookbook experience.
                 </p>
 
                 <p>
                   I directed video production & dev teams to prototype & deliver
-                  iteratively, resulting in a shopper conversion rate of 15%.
+                  iteratively, resulting in a shopper conversion rate of 24%.
                 </p>
               </div>
 
@@ -1035,10 +1045,7 @@ const Card = () => {
                 </ul>
               </div>
 
-              <div
-                className="bottom__img bottom__img5"
-                onClick={handleOpenFullImage5}
-              ></div>
+              <div className="bottom__img" onClick={handleOpenFullImage1}></div>
             </Col>
           </Row>
         </Container>
@@ -1046,13 +1053,13 @@ const Card = () => {
 
       {/* Full Image Div */}
 
-      <div className="bottom__full__image5" onClick={handleCloseFullImage5}>
+      <div className="bottom__full__image1" onClick={handleCloseFullImage1}>
         <AiOutlineCloseCircle
           className="closeIcon"
-          onClick={handleCloseFullImage5}
+          onClick={handleCloseFullImage1}
         />
 
-        <img src="./images/BabyGift.png" alt="" />
+        <img src="./images/StyleGuide.png" alt="" />
       </div>
     </Fragment>
   );
