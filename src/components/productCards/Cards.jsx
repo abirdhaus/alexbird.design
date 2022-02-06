@@ -82,20 +82,6 @@ const Card = () => {
     $("body","html").css("overflowY", "unset");
   };
 
-  const handleSlideUp7 = () => {
-    $(".card__detail__div7").css({
-      bottom: "0%",
-      opacity: "1",
-    });
-    $(".bg__black__effect2").css("display", "block");
-    
-    let body = document.querySelector('body')
-
-    disableBodyScroll(body)
-
-    $("body","html").css("overflowY", "hidden");
-  };
-
   const handleSlideUp8 = () => {
     $(".card__detail__div8").css({
       bottom: "0%",
