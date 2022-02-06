@@ -174,7 +174,7 @@ const Projects = () => {
                     </a>
 
                     {!isClicked && <div className="mobile_bird_2"></div>}
-                    <a href="mailto:" style={{ textDecoration: "none" }}>
+                    <a href="mailto:alex@bird.haus" style={{ textDecoration: "none" }}>
                       <li className="li3__icon">
                         <img src="./images/Mail.svg" alt="ig" />
                       </li>

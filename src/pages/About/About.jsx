@@ -229,7 +229,7 @@ const About = () => {
             </a>
 
             {!isClicked && <div className="mobile_bird_2"></div>}
-            <a href="mailto:" style={{ textDecoration: "none" }}>
+            <a href="mailto:alex@bird.haus" style={{ textDecoration: "none" }}>
               <li className="li3__icon">
                 <img src="./images/Mail.svg" alt="ig" />
               </li>
@@ -476,7 +476,7 @@ const About = () => {
                 </button>
                 <div className="accordion-content">
                   <p>
-                    Something like that! 50% of pages on the internet are
+                    Something like that! Over 50% of pages on the internet are
                     commerce-related, so it feels like a good place to start.
                   </p>
                   <p>

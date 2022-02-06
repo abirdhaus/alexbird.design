@@ -22,6 +22,36 @@ const Card = () => {
     }
   }, []);
 
+  const handleSlideUp3 = () => {
+    $(".card__detail__div3").css({
+      bottom: "0%",
+      opacity: "1",
+    });
+    $("#card-iframe-3").attr("src", $("#card-iframe-3").attr("data-src"));
+    
+    let body = document.querySelector('body')
+
+    disableBodyScroll(body);
+
+    $(".bg__black__effect2").css("display", "block");
+    $("body","html").css("overflowY", "hidden");
+  };
+  
+  const handleSlideDown3 = () => {
+    $(".card__detail__div3").css({
+      bottom: "-100%",
+      opacity: "0",
+    });
+    
+    let body = document.querySelector('body')
+
+    enableBodyScroll(body);
+
+    $(".bg__black__effect2").css("display", "none");
+    $("#card-iframe-3").attr("src", "");
+    $("body","html").css("overflowY", "unset");
+  };
+
   const handleSlideUp6 = () => {
     $(".card__detail__div6").css({
       bottom: "0%",
@@ -64,19 +94,6 @@ const Card = () => {
     disableBodyScroll(body)
 
     $("body","html").css("overflowY", "hidden");
-  };
-
-  const handleSlideDown7 = () => {
-    $(".card__detail__div7").css({
-      bottom: "-100%",
-      opacity: "0",
-    });
-    $(".bg__black__effect2").css("display", "none");
-    let body = document.querySelector('body')
-
-    enableBodyScroll(body);
-
-    $("body","html").css("overflowY", "unset");
   };
 
   const handleSlideUp8 = () => {
@@ -137,6 +154,28 @@ const Card = () => {
     enableBodyScroll(body);
 
     $("body","html").css("overflowY", "unset");
+  };
+
+  const handleOpenFullImage3 = () => {
+    $(".card__detail__div3").css({
+      bottom: "0%",
+      opacity: "1",
+    });
+
+    $("body","html").css("overflowY", "hidden");
+
+    const fullImageDiv = document.querySelector(".bottom__full__image3");
+    fullImageDiv.classList.add("active__full__image");
+  };
+
+  const handleCloseFullImage3 = () => {
+    $(".card__detail__div3").css({
+      bottom: "0%",
+      opacity: "1",
+    });
+
+    const fullImageDiv = document.querySelector(".bottom__full__image3");
+    fullImageDiv.classList.remove("active__full__image");
   };
 
   const handleOpenFullImage6__1 = () => {
@@ -217,88 +256,6 @@ const Card = () => {
     $(".card__detail__div6").css("bottom", "0%");
 
     const fullImageDiv = document.querySelector(".bottom__full__image6__1");
-    fullImageDiv.classList.remove("active__full__image");
-  };
-
-  const handleOpenFullImage7__1 = () => {
-    $(".card__detail__div7").css("bottom", "0%");
-
-    $("body","html").css("overflowY", "hidden");
-
-    const sliderItem7__1 = document.querySelector(".sliderItem7__1");
-    const sliderItem7__2 = document.querySelector(".sliderItem7__2");
-    const sliderItem7__3 = document.querySelector(".sliderItem7__3");
-
-    const sliderBtn7__1 = document.querySelector(".sliderBtn7__1");
-    const sliderBtn7__2 = document.querySelector(".sliderBtn7__2");
-    const sliderBtn7__3 = document.querySelector(".sliderBtn7__3");
-
-    sliderBtn7__1.classList.add("active");
-    sliderBtn7__2.classList.remove("active");
-    sliderBtn7__3.classList.remove("active");
-
-    sliderItem7__1.classList.add("active");
-    sliderItem7__2.classList.remove("active");
-    sliderItem7__3.classList.remove("active");
-
-    const fullImageDiv = document.querySelector(".bottom__full__image7__1");
-    fullImageDiv.classList.add("active__full__image");
-  };
-
-  const handleOpenFullImage7__2 = () => {
-    $(".card__detail__div7").css("bottom", "0%");
-
-    $("body","html").css("overflowY", "hidden");
-
-    const sliderItem7__1 = document.querySelector(".sliderItem7__1");
-    const sliderItem7__2 = document.querySelector(".sliderItem7__2");
-    const sliderItem7__3 = document.querySelector(".sliderItem7__3");
-
-    const sliderBtn7__1 = document.querySelector(".sliderBtn7__1");
-    const sliderBtn7__2 = document.querySelector(".sliderBtn7__2");
-    const sliderBtn7__3 = document.querySelector(".sliderBtn7__3");
-
-    sliderBtn7__1.classList.remove("active");
-    sliderBtn7__2.classList.add("active");
-    sliderBtn7__3.classList.remove("active");
-
-    sliderItem7__1.classList.remove("active");
-    sliderItem7__2.classList.add("active");
-    sliderItem7__3.classList.remove("active");
-
-    const fullImageDiv = document.querySelector(".bottom__full__image7__1");
-    fullImageDiv.classList.add("active__full__image");
-  };
-
-  const handleOpenFullImage7__3 = () => {
-    $(".card__detail__div7").css("bottom", "0%");
-
-    $("body","html").css("overflowY", "hidden");
-
-    const sliderItem7__1 = document.querySelector(".sliderItem7__1");
-    const sliderItem7__2 = document.querySelector(".sliderItem7__2");
-    const sliderItem7__3 = document.querySelector(".sliderItem7__3");
-
-    const sliderBtn7__1 = document.querySelector(".sliderBtn7__1");
-    const sliderBtn7__2 = document.querySelector(".sliderBtn7__2");
-    const sliderBtn7__3 = document.querySelector(".sliderBtn7__3");
-
-    sliderBtn7__1.classList.remove("active");
-    sliderBtn7__2.classList.remove("active");
-    sliderBtn7__3.classList.add("active");
-
-    sliderItem7__1.classList.remove("active");
-    sliderItem7__2.classList.remove("active");
-    sliderItem7__3.classList.add("active");
-
-    const fullImageDiv = document.querySelector(".bottom__full__image7__1");
-    fullImageDiv.classList.add("active__full__image");
-  };
-
-  const handleCloseFullImage7__1 = () => {
-    $(".card__detail__div7").css("bottom", "0%");
-
-    const fullImageDiv = document.querySelector(".bottom__full__image7__1");
     fullImageDiv.classList.remove("active__full__image");
   };
 
@@ -468,6 +425,22 @@ const Card = () => {
 
   return (
     <Fragment>
+
+    {/* Card 5 */}
+
+            <div className="card__box" onClick={handleSlideUp3}>
+        <div className="card__image">
+          <img src="./images/Square-2.png" alt="" />
+        </div>
+
+        <h3>Pet Gift Finder</h3>
+
+        <p>
+          Shop with expert pets, answering questions about your furry friend to find their dream
+          gift.
+        </p>
+      </div>
+      
       {/* Card 6 */}
 
       <div className="card__box" onClick={handleSlideUp6}>
@@ -479,22 +452,7 @@ const Card = () => {
 
         <p>
           Find the right car seat with a child safety expert, and
-          learn helpful tips for every age along the way.{" "}
-        </p>
-      </div>
-
-      {/* Card 7 */}
-
-      <div className="card__box" onClick={handleSlideUp7}>
-        <div className="card__image">
-          <img src="./images/Square-6.png" alt="" />
-        </div>
-
-        <h3>Fly with Breeze</h3>
-
-        <p>
-          Order healthy & delicious airport food on-the-go with this easy,
-          breezy app & service.
+          learn helpful tips along the way.{" "}
         </p>
       </div>
 
@@ -509,7 +467,7 @@ const Card = () => {
 
         <p>
           Spill your routine & tastes to a barista pro, and let her find the
-          perfect coffee maker for you.
+          right coffee maker for you.
         </p>
       </div>
 
@@ -528,8 +486,114 @@ const Card = () => {
         </p>
       </div>
 
-      {/* Card Slide 6 */}
+      {/* Card Slide 5 */}
 
+
+      <div className="card__detail__div3" allowTouchMove body-scroll-lock-ignore>
+        <Container fluid={true} className="p-0">
+          <Row
+            className="p-0 m-0 mb-4 cards__handle__row"
+            onClick={handleSlideDown3}
+          >
+            <Col
+              xxl={12}
+              xl={12}
+              lg={12}
+              md={12}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-center"
+            >
+              <img src="./images/Handle.svg" className="handleImg" alt="" />
+            </Col>
+          </Row>
+
+          <Row className="p-0 m-0 pt-3">
+            
+            <Col
+              xxl={8}
+              xl={8}
+              lg={8}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 card__content__container"
+            >
+              <div className="main__content">
+                <h4>What I did</h4>
+
+                <p>
+                  As Product Lead, I worked with the Walmart Pets team to design
+                  & build this interactive pet gift finder.
+                </p>
+
+                <p>
+                  Recommending over 800+ dog & cat products, this delightful experience
+                  answered 12+ unique customer needstates, and resulted in a
+                  cumulative conversion rate of 23%.
+                </p>
+              </div>
+
+              <div className="skills__content">
+                <h4>Skills</h4>
+
+                <ul className="p-0">
+                  <li>Concepting</li>
+                  <li>UX design</li>
+                  <li>IA</li>
+                  <li>Systems design</li>
+                  <li>UI design</li>
+                  <li>Spec</li>
+                  <li>Video production</li>
+                  <li>Digital production</li>
+                </ul>
+              </div>
+
+              <div
+                className="bottom__img bottom__img3"
+                onClick={handleOpenFullImage3}
+              ></div>
+            </Col>
+
+            <Col
+              xxl={4}
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-start"
+            >
+              <div className="card__detail__img3">
+                <iframe
+                  id="card-iframe-3"
+                  src=""
+                  data-src="https://de.eko.com/pet-gift"
+                  title="Pet Gift Finder"
+                  style={{ width: "100%", height: "100%", border: 0 }}
+                  allowFullScreen
+                  scrolling="no"
+                  allow="fullscreen"
+                ></iframe>
+              </div>
+            </Col>
+
+          </Row>
+        </Container>
+      </div>
+
+      {/* Full Image Div */}
+
+      <div className="bottom__full__image3" onClick={handleCloseFullImage3}>
+        <AiOutlineCloseCircle
+          className="closeIcon"
+          onClick={handleCloseFullImage3}
+        />
+
+        <img src="./images/PetGift.png" alt="" />
+      </div>
+
+      {/* Card Slide 6 */}
       <div className="card__detail__div6" allowTouchMove body-scroll-lock-ignore>
         <Container fluid={true} className="p-0">
           <Row
@@ -551,29 +615,6 @@ const Card = () => {
 
           <Row className="p-0 m-0 pt-3">
             <Col
-              xxl={4}
-              xl={4}
-              lg={4}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-start"
-            >
-              <div className="card__detail__img6">
-                <iframe
-                  id="card-iframe-6"
-                  src=""
-                  data-src="https://de.eko.com/car-seat"
-                  title="Car Seat Finder"
-                  style={{ width: "100%", height: "100%", border: 0 }}
-                  allowFullScreen
-                  scrolling="no"
-                  allow="fullscreen"
-                ></iframe>
-              </div>
-            </Col>
-
-            <Col
               xxl={8}
               xl={8}
               lg={8}
@@ -586,13 +627,12 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Product Lead, I worked with the Walmart Baby team to design,
-                  build, & test this interactive car seat finder for kids of all ages.
+                  As Product Lead, I worked with the Walmart Baby team to design &
+                  build this interactive car seat finder for kids of all ages.
                 </p>
 
                 <p>
-                  By helping both new and experienced parents find the right
-                  seat, this experience solves real parenting problems,
+                  This experience solves real problems for new and experienced parents alike,
                   converting engaged shoppers at rate of 20%.
                 </p>
               </div>
@@ -630,6 +670,30 @@ const Card = () => {
                 ></div>
               </div>
             </Col>
+
+            <Col
+              xxl={4}
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-start"
+            >
+              <div className="card__detail__img6">
+                <iframe
+                  id="card-iframe-6"
+                  src=""
+                  data-src="https://de.eko.com/car-seat"
+                  title="Car Seat Finder"
+                  style={{ width: "100%", height: "100%", border: 0 }}
+                  allowFullScreen
+                  scrolling="no"
+                  allow="fullscreen"
+                ></iframe>
+              </div>
+            </Col>
+
           </Row>
         </Container>
       </div>
@@ -721,197 +785,6 @@ const Card = () => {
         </div>
       </div>
 
-      {/* Card Slide 7 */}
-
-      <div className="card__detail__div7" allowTouchMove body-scroll-lock-ignore>
-        <Container fluid={true} className="p-0">
-          <Row
-            className="p-0 m-0 mb-4 cards__handle__row"
-            onClick={handleSlideDown7}
-          >
-            <Col
-              xxl={12}
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-center"
-            >
-              <img src="./images/Handle.svg" className="handleImg" alt="" />
-            </Col>
-          </Row>
-
-          <Row className="p-0 m-0 pt-3">
-            <Col
-              xxl={4}
-              xl={4}
-              lg={4}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-start"
-            >
-              <div className="card__detail__img7"></div>
-            </Col>
-
-            <Col
-              xxl={8}
-              xl={8}
-              lg={8}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 card__content__container"
-            >
-              <div className="main__content">
-                <h4>What I did</h4>
-
-                <p>
-                  As Product Designer, I explored the airport problem space to
-                  design a consumer service that delivers healthy food options
-                  for on-the-go travellers.
-                </p>
-
-                <p>
-                  I created UX flows, wireframes, prototypes, UI designs, and
-                  technical specs required to ship & deliver the{" "}
-                  <a
-                    href="https://apps.apple.com/us/app/fly-with-breeze/id1476095831"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      textDecoration: "underline",
-                      textDecorationColor: "white",
-                    }}
-                  >
-                    Breeze iOS app
-                  </a>
-                  .
-                </p>
-              </div>
-
-              <div className="skills__content">
-                <h4>Skills</h4>
-
-                <ul className="p-0">
-                  <li>Concepting</li>
-                  <li>B2C</li>
-                  <li>Product strategy</li>
-                  <li>User flow</li>
-                  <li>UX/UI Design</li>
-                  <li>Wireframe</li>
-                  <li>Prototype</li>
-                  <li>Systems design</li>
-                </ul>
-              </div>
-
-              <div className="three__img__div product__img__div2">
-                <div
-                  className="product__img__2__1"
-                  onClick={handleOpenFullImage7__1}
-                ></div>
-                <div
-                  className="product__img__2__2"
-                  onClick={handleOpenFullImage7__2}
-                ></div>
-                <div
-                  className="product__img__2__3"
-                  onClick={handleOpenFullImage7__3}
-                ></div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      {/* Full Image Divs */}
-
-      <div className="bottom__full__image7__1">
-        <AiOutlineCloseCircle
-          className="closeIcon"
-          onClick={handleCloseFullImage7__1}
-        />
-
-        <div
-          id="carouselExampleIndicators7"
-          data-bs-interval="false"
-          className="carousel slide sliderimg7"
-        >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators7"
-              data-bs-slide-to="0"
-              className="sliderBtn7__1 active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              className="sliderBtn7__2"
-              data-bs-target="#carouselExampleIndicators7"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              className="sliderBtn7__3"
-              data-bs-target="#carouselExampleIndicators3"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div className="carousel-inner h-75 d-flex justufy-content-center align-items-center">
-            <div className="carousel-item sliderItem7__1 active">
-              <img
-                src="./images/BreezeProduct1.png"
-                className="d-block w-100 imageSize7"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item sliderItem7__2">
-              <img
-                src="./images/BreezeProduct2.png"
-                className="d-block w-100 imageSize7"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item sliderItem7__3">
-              <img
-                src="./images/BreezeProduct3.png"
-                className="d-block w-100 imageSize7"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev preBtn"
-            type="button"
-            data-bs-target="#carouselExampleIndicators7"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next nextBtn"
-            type="button"
-            data-bs-target="#carouselExampleIndicators7"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-
       {/* Card Slide 8 */}
 
       <div className="card__detail__div8" allowTouchMove body-scroll-lock-ignore>
@@ -934,28 +807,6 @@ const Card = () => {
           </Row>
 
           <Row className="p-0 m-0 pt-3">
-            <Col
-              xxl={4}
-              xl={4}
-              lg={4}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-start"
-            >
-              <div className="card__detail__img8">
-                <iframe
-                  id="card-iframe-8"
-                  src=""
-                  data-src="https://de.eko.com/coffee-maker"
-                  title="Coffee Maker Finder"
-                  style={{ width: "100%", height: "100%", border: 0 }}
-                  allowFullScreen
-                  scrolling="no"
-                  allow="fullscreen"
-                ></iframe>
-              </div>
-            </Col>
 
             <Col
               xxl={8}
@@ -1010,6 +861,29 @@ const Card = () => {
                   className="product__img__1__3 product__img__3__3"
                   onClick={handleOpenFullImage8__3}
                 ></div>
+              </div>
+            </Col>
+
+            <Col
+              xxl={4}
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-start"
+            >
+              <div className="card__detail__img8">
+                <iframe
+                  id="card-iframe-8"
+                  src=""
+                  data-src="https://de.eko.com/coffee-maker"
+                  title="Coffee Maker Finder"
+                  style={{ width: "100%", height: "100%", border: 0 }}
+                  allowFullScreen
+                  scrolling="no"
+                  allow="fullscreen"
+                ></iframe>
               </div>
             </Col>
           </Row>
@@ -1126,29 +1000,6 @@ const Card = () => {
 
           <Row className="p-0 m-0 pt-3">
             <Col
-              xxl={4}
-              xl={4}
-              lg={4}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-start"
-            >
-              <div className="card__detail__img9">
-                <iframe
-                  id="card-iframe-9"
-                  src=""
-                  data-src="https://de.eko.com/paint"
-                  title="Paint Finder"
-                  style={{ width: "100%", height: "100%", border: 0 }}
-                  allowFullScreen
-                  scrolling="no"
-                  allow="fullscreen"
-                ></iframe>
-              </div>
-            </Col>
-
-            <Col
               xxl={8}
               xl={8}
               lg={8}
@@ -1220,9 +1071,32 @@ const Card = () => {
                         onClick={handleOpenFullImage9__3}
                       />
                     </Col>
+                    
                   </Row>
                 </Col>
               </Row>
+            </Col>
+            <Col
+              xxl={4}
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-start"
+            >
+              <div className="card__detail__img9">
+                <iframe
+                  id="card-iframe-9"
+                  src=""
+                  data-src="https://de.eko.com/paint"
+                  title="Paint Finder"
+                  style={{ width: "100%", height: "100%", border: 0 }}
+                  allowFullScreen
+                  scrolling="no"
+                  allow="fullscreen"
+                ></iframe>
+              </div>
             </Col>
           </Row>
         </Container>

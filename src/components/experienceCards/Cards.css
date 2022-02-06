@@ -30,6 +30,15 @@
   margin-bottom: 0px;
 }
 
+.card__box h5 {
+  color: black;
+  font-weight: 500;
+  margin-top: 14px;
+  margin-left: 12px;
+  margin-bottom: 5px;
+  font-size: 1.88rem;
+}
+
 .card__box p {
   width: 90%;
   color: var(--secondary);
@@ -63,14 +72,6 @@
   /* overflow-y: scroll !important; */
   transition: all 0.3s ease-in-out !important;
   opacity: 0;
-}
-
-.card__detail__img7 {
-  background-image: url(../../assets/Short_2_About.gif);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 2rem;
 }
 
 .cards__handle__row {
@@ -139,10 +140,12 @@
 
 .card__detail__img2 {
   /* he */
+  width: 353px !important;
   margin-right: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("../../assets/eko\ video\ embed-8.png");
+  background-image: url("../../assets/BreezeIG.png");
+  border-radius: 10px !important;
 }
 
 .card__detail__img4 {
@@ -151,7 +154,8 @@
 }
 
 .card__content__container {
-  padding-left: 5% !important;
+  padding-left: 2% !important;
+  padding-right: 3% !important;
 }
 
 .main__content {
@@ -335,9 +339,9 @@
 }
 
 .three__img2 {
-  width: 190px;
+  width: 225px;
   height: 340px;
-  background-image: url(../../assets/BreezeContent2.gif);
+  background-image: url(../../assets/BreezeContent4.gif);
   margin-top: 3rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -355,28 +359,6 @@
   margin-top: 3rem;
   cursor: pointer;
   border-radius: 10px;
-}
-
-.product__img__2__1,
-.product__img__2__2,
-.product__img__2__3 {
-  width: 160px;
-  height: 320px;
-  background-image: url(../../assets/BreezeProduct1.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  margin-top: 1rem !important;
-  cursor: pointer;
-  margin-right: 1rem;
-}
-
-.product__img__2__2 {
-  background-image: url(../../assets/BreezeProduct2.png);
-}
-
-.product__img__2__3 {
-  background-image: url(../../assets/BreezeProduct3.png);
-  margin-right: 0rem;
 }
 
 .bottom__full__image1,
@@ -522,7 +504,7 @@
 
 @media (max-width: 1370px) {
   .bottom__img {
-    width: 500px;
+    width: -webkit-fill-available;
   }
 
   .sliderimg2,
@@ -873,6 +855,7 @@
 
   .card__content__container {
     padding-left: 2% !important;
+    padding-right: 3% !important;
   }
 
   .three__img1,
