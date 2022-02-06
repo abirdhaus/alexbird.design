@@ -427,21 +427,6 @@ const Card = () => {
         </p>
       </div>
       
-      {/* Card 6 */}
-
-      <div className="card__box" onClick={handleSlideUp6}>
-        <div className="card__image">
-          <img src="./images/Square-5.png" alt="" />
-        </div>
-
-        <h3>Car Seat Finder</h3>
-
-        <p>
-          Find the right car seat with a child safety expert, and
-          learn helpful tips along the way.{" "}
-        </p>
-      </div>
-
       {/* Card 8 */}
 
       <div className="card__box" onClick={handleSlideUp8}>
@@ -454,6 +439,21 @@ const Card = () => {
         <p>
           Spill your routine & tastes to a barista pro, and let her find the
           right coffee maker for you.
+        </p>
+      </div>
+
+      {/* Card 6 */}
+
+      <div className="card__box" onClick={handleSlideUp6}>
+        <div className="card__image">
+          <img src="./images/Square-5.png" alt="" />
+        </div>
+
+        <h3>Car Seat Finder</h3>
+
+        <p>
+          Find the right car seat with a child safety expert, and
+          learn helpful tips along the way.{" "}
         </p>
       </div>
 
@@ -577,198 +577,6 @@ const Card = () => {
         />
 
         <img src="./images/PetGift.png" alt="" />
-      </div>
-
-      {/* Card Slide 6 */}
-      <div className="card__detail__div6" allowTouchMove body-scroll-lock-ignore>
-        <Container fluid={true} className="p-0">
-          <Row
-            className="p-0 m-0 mb-4 cards__handle__row"
-            onClick={handleSlideDown6}
-          >
-            <Col
-              xxl={12}
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-center"
-            >
-              <img src="./images/Handle.svg" className="handleImg" alt="" />
-            </Col>
-          </Row>
-
-          <Row className="p-0 m-0 pt-3">
-            <Col
-              xxl={8}
-              xl={8}
-              lg={8}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 card__content__container"
-            >
-              <div className="main__content">
-                <h4>What I did</h4>
-
-                <p>
-                  As Product Lead, I worked with the Walmart Baby team to design &
-                  build this interactive car seat finder for kids of all ages.
-                </p>
-
-                <p>
-                  This experience solves real problems for new and experienced parents alike,
-                  converting engaged shoppers at rate of 20%.
-                </p>
-              </div>
-
-              <div className="skills__content">
-                <h4>Skills</h4>
-
-                <ul className="p-0">
-                  <li>Concepting</li>
-                  <li>B2C</li>
-                  <li>Product strategy</li>
-                  <li>User research</li>
-                  <li>UX design</li>
-                  <li>Roadmap</li>
-                  <li>Spec</li>
-                  <li>Data analysis</li>
-                  <li>Optimization</li>
-                  <li>Video production</li>
-                  <li>Digital production</li>
-                </ul>
-              </div>
-
-              <div className="product__img__div1">
-                <div
-                  className="product__img__1__1"
-                  onClick={handleOpenFullImage6__1}
-                ></div>
-                <div
-                  className="product__img__1__2"
-                  onClick={handleOpenFullImage6__2}
-                ></div>
-                <div
-                  className="product__img__1__3"
-                  onClick={handleOpenFullImage6__3}
-                ></div>
-              </div>
-            </Col>
-
-            <Col
-              xxl={4}
-              xl={4}
-              lg={4}
-              md={6}
-              sm={12}
-              xs={12}
-              className="p-0 d-flex justify-content-center align-items-start"
-            >
-              <div className="card__detail__img6">
-                <iframe
-                  id="card-iframe-6"
-                  src=""
-                  data-src="https://de.eko.com/car-seat"
-                  title="Car Seat Finder"
-                  style={{ width: "100%", height: "100%", border: 0 }}
-                  allowFullScreen
-                  scrolling="no"
-                  allow="fullscreen"
-                ></iframe>
-              </div>
-            </Col>
-
-          </Row>
-        </Container>
-      </div>
-
-      {/* Full Image Divs */}
-
-      <div className="bottom__full__image6__1">
-        <AiOutlineCloseCircle
-          className="closeIcon"
-          onClick={handleCloseFullImage6__1}
-        />
-
-        <div
-          id="carouselExampleIndicators6"
-          data-bs-interval="false"
-          className="carousel slide sliderimg6"
-        >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators6"
-              data-bs-slide-to="0"
-              className="sliderBtn6__1 active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              className="sliderBtn6__2"
-              data-bs-target="#carouselExampleIndicators6"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              className="sliderBtn6__3"
-              data-bs-target="#carouselExampleIndicators6"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div className="carousel-inner h-75 d-flex justufy-content-center align-items-center">
-            <div className="carousel-item sliderItem6__1 active">
-              <img
-                src="./images/CarSeat1.png"
-                className="d-block w-100 imageSize6"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item sliderItem6__2">
-              <img
-                src="./images/CarSeat3.png"
-                className="d-block w-100 imageSize6 imageSize6__2"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item sliderItem6__3">
-              <img
-                src="./images/CarSeat2.png"
-                className="d-block w-100 imageSize6"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev preBtn"
-            type="button"
-            data-bs-target="#carouselExampleIndicators6"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next nextBtn"
-            type="button"
-            data-bs-target="#carouselExampleIndicators6"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
       </div>
 
       {/* Card Slide 8 */}
@@ -952,6 +760,199 @@ const Card = () => {
             className="carousel-control-next nextBtn"
             type="button"
             data-bs-target="#carouselExampleIndicators8"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+{/* Card Slide 6 */}
+
+<div className="card__detail__div6" allowTouchMove body-scroll-lock-ignore>
+        <Container fluid={true} className="p-0">
+          <Row
+            className="p-0 m-0 mb-4 cards__handle__row"
+            onClick={handleSlideDown6}
+          >
+            <Col
+              xxl={12}
+              xl={12}
+              lg={12}
+              md={12}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-center"
+            >
+              <img src="./images/Handle.svg" className="handleImg" alt="" />
+            </Col>
+          </Row>
+
+          <Row className="p-0 m-0 pt-3">
+            <Col
+              xxl={8}
+              xl={8}
+              lg={8}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 card__content__container"
+            >
+              <div className="main__content">
+                <h4>What I did</h4>
+
+                <p>
+                  As Product Lead, I worked with the Walmart Baby team to design &
+                  build this interactive car seat finder for kids of all ages.
+                </p>
+
+                <p>
+                  This experience solves real problems for new and experienced parents alike,
+                  converting engaged shoppers at rate of 20%.
+                </p>
+              </div>
+
+              <div className="skills__content">
+                <h4>Skills</h4>
+
+                <ul className="p-0">
+                  <li>Concepting</li>
+                  <li>B2C</li>
+                  <li>Product strategy</li>
+                  <li>User research</li>
+                  <li>UX design</li>
+                  <li>Roadmap</li>
+                  <li>Spec</li>
+                  <li>Data analysis</li>
+                  <li>Optimization</li>
+                  <li>Video production</li>
+                  <li>Digital production</li>
+                </ul>
+              </div>
+
+              <div className="product__img__div1">
+                <div
+                  className="product__img__1__1"
+                  onClick={handleOpenFullImage6__1}
+                ></div>
+                <div
+                  className="product__img__1__2"
+                  onClick={handleOpenFullImage6__2}
+                ></div>
+                <div
+                  className="product__img__1__3"
+                  onClick={handleOpenFullImage6__3}
+                ></div>
+              </div>
+            </Col>
+
+            <Col
+              xxl={4}
+              xl={4}
+              lg={4}
+              md={6}
+              sm={12}
+              xs={12}
+              className="p-0 d-flex justify-content-center align-items-start"
+            >
+              <div className="card__detail__img6">
+                <iframe
+                  id="card-iframe-6"
+                  src=""
+                  data-src="https://de.eko.com/car-seat"
+                  title="Car Seat Finder"
+                  style={{ width: "100%", height: "100%", border: 0 }}
+                  allowFullScreen
+                  scrolling="no"
+                  allow="fullscreen"
+                ></iframe>
+              </div>
+            </Col>
+
+          </Row>
+        </Container>
+      </div>
+
+      {/* Full Image Divs */}
+
+      <div className="bottom__full__image6__1">
+        <AiOutlineCloseCircle
+          className="closeIcon"
+          onClick={handleCloseFullImage6__1}
+        />
+
+        <div
+          id="carouselExampleIndicators6"
+          data-bs-interval="false"
+          className="carousel slide sliderimg6"
+        >
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators6"
+              data-bs-slide-to="0"
+              className="sliderBtn6__1 active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              className="sliderBtn6__2"
+              data-bs-target="#carouselExampleIndicators6"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              className="sliderBtn6__3"
+              data-bs-target="#carouselExampleIndicators6"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div className="carousel-inner h-75 d-flex justufy-content-center align-items-center">
+            <div className="carousel-item sliderItem6__1 active">
+              <img
+                src="./images/CarSeat1.png"
+                className="d-block w-100 imageSize6"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item sliderItem6__2">
+              <img
+                src="./images/CarSeat3.png"
+                className="d-block w-100 imageSize6 imageSize6__2"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item sliderItem6__3">
+              <img
+                src="./images/CarSeat2.png"
+                className="d-block w-100 imageSize6"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev preBtn"
+            type="button"
+            data-bs-target="#carouselExampleIndicators6"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next nextBtn"
+            type="button"
+            data-bs-target="#carouselExampleIndicators6"
             data-bs-slide="next"
           >
             <span

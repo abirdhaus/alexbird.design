@@ -350,8 +350,8 @@ const About = () => {
                 <div className="accordion-content">
                   <p>
                     I’m driven by a desire to humanize our collective experience
-                    of the internet. I believe the convergence of storytelling & technology creates a universal
-                    language that furthers our shared understanding of humanity.
+                    of the internet. I believe the convergence of technology & storytelling creates universal
+                    languages that further our shared understanding of humanity.
                   </p>
                   <p>
                     By building digital experiences that reimagine what online
@@ -422,8 +422,8 @@ const About = () => {
                 </button>
                 <div className="accordion-content">
                   <p>
-                    I’ve never stopped dreaming about what the internet could be
-                    — a transformative & magical place where anything you can
+                    I’ve never stopped dreaming about what the digital world <i>could be</i>
+                     — a transformative & magical place where anything you can
                     imagine is possible, tangible, and real.
                   </p>
                   <p>
