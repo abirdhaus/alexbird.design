@@ -515,8 +515,7 @@ const Card = () => {
 
                 <p>
                   Recommending over 800+ dog & cat products, this delightful experience
-                  answered 12+ unique customer needstates, and resulted in a
-                  cumulative conversion rate of 23%.
+                  answered 12+ unique customer needstates, and converted 25% of engaged users to shop.
                 </p>
               </div>
 
@@ -619,8 +618,8 @@ const Card = () => {
                 </p>
 
                 <p>
-                  By helping novice and informed drinkers find the right makers
-                  this experience converted engaged shoppers at a rate of 18%.
+                  By helping both novice and informed drinkers alike find the right makers,
+                  this experience converted 18% of engaged users to shop.
                 </p>
               </div>
 
@@ -812,7 +811,7 @@ const Card = () => {
 
                 <p>
                   This experience solves real problems for new and experienced parents alike,
-                  converting engaged shoppers at rate of 20%.
+                  converting 20% of engaged users to shop.
                 </p>
               </div>
 
@@ -1003,8 +1002,7 @@ const Card = () => {
                 </p>
                 <p>
                   Using eko’s tech, we helped DIYers curate top colors & imagine
-                  how they’d look on the wall, converting engaged shoppers at a rate of
-                  17%.
+                  how they’d look on the wall, converting 17% of engaged users to shop.
                 </p>
                 <p>
                   By collaborating with eko devs, we built a new WebGL chroma

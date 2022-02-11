@@ -350,12 +350,12 @@ const About = () => {
                 <div className="accordion-content">
                   <p>
                     I’m driven by a desire to humanize our collective experience
-                    of the internet. I believe the convergence of technology & storytelling creates universal
-                    languages that further our shared understanding of humanity.
+                    of the internet. I believe the convergence of storytelling & technology creates a universal
+                    language that furthers our understanding of humanity.
                   </p>
                   <p>
                     By building digital experiences that reimagine what online
-                    interactions can be, I like to think my work (in some small
+                    behaviors can be, I like to think my work (in some small
                     way) helps the internet live up to it’s revolutionary
                     potential.
                   </p>
@@ -395,14 +395,14 @@ const About = () => {
                 </button>
                 <div className="accordion-content">
                   <p>
-                    I love the promise of the internet. Growing up, my affinity
+                    I love the <i>promise</i> of the internet. Growing up, my affinity
                     for technology was nurtured by online forums, sci-fi novels
                     and films that helped my generation imagine what the
-                    internet could be.
+                    internet <i>could</i> be.
                   </p>
                   <p>
-                    Since then, I’ve watched the net’s promise of youth fade
-                    away. Instead of wielding the internet as a revolutionary
+                    Since then, I’ve watched the net’s promise of youth fade. 
+                    Instead of wielding the internet as a revolutionary
                     tool for self-actualization, we’ve become complacent and
                     accepting of profitable mediocrity that chokes real
                     innovation. I believe we, the users, deserve better.
@@ -417,14 +417,12 @@ const About = () => {
                 >
                   <img src="./images/arrow.svg" className="arrowIcon4" alt="" />
                   <span className="accordion-title">
-                    What do you wish the internet was like?
+                    What do you wish the digital world was like?
                   </span>
                 </button>
                 <div className="accordion-content">
                   <p>
-                    I’ve never stopped dreaming about what the digital world <i>could be</i>
-                     — a transformative & magical place where anything you can
-                    imagine is possible, tangible, and real.
+                    I’ve never stopped dreaming about what the internet <i>could</i> be — a transformative & magical place where anything imagined is made possible, tangible, and real.
                   </p>
                   <p>
                     I believe new technologies are the closest thing we’re ever
