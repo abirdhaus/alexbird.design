@@ -422,8 +422,7 @@ const Card = () => {
         <h3>Pet Gift Finder</h3>
 
         <p>
-          Shop with expert pets, answering questions about your furry friend to find their dream
-          gift.
+        Answer questions from expert pets to find the pawfect gift for yours.
         </p>
       </div>
       
@@ -437,23 +436,8 @@ const Card = () => {
         <h3>Coffee Maker Finder</h3>
 
         <p>
-          Spill your routine & tastes to a barista pro, and let her find the
-          right coffee maker for you.
-        </p>
-      </div>
-
-      {/* Card 6 */}
-
-      <div className="card__box" onClick={handleSlideUp6}>
-        <div className="card__image">
-          <img src="./images/Square-5.png" alt="" />
-        </div>
-
-        <h3>Car Seat Finder</h3>
-
-        <p>
-          Find the right car seat with a child safety expert, and
-          learn helpful tips along the way.{" "}
+          Spill your tastes to a barista pro, & let her find the
+          right maker for you.
         </p>
       </div>
 
@@ -467,8 +451,22 @@ const Card = () => {
         <h3>Paint Finder</h3>
 
         <p>
-          Get help from an interior designer, testing colors in virtual spaces
-          to find the right shade for your room.
+          Get interior design help finding the right shade for your room.
+        </p>
+      </div>
+
+      {/* Card 6 */}
+
+      <div className="card__box" onClick={handleSlideUp6}>
+        <div className="card__image">
+          <img src="./images/Square-5.png" alt="" />
+        </div>
+
+        <h3>Car Seat Finder</h3>
+
+        <p>
+          Shop with a safety expert, and learn helpful tips along the way.
+          {" "}
         </p>
       </div>
 
@@ -509,7 +507,7 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Product Lead, I worked with the Walmart Pets team to design
+                  As <b>Product Lead</b>, I worked with the Walmart Pets team to design
                   & build this interactive pet gift finder.
                 </p>
 
@@ -613,8 +611,8 @@ const Card = () => {
               <div className="main__content">
                 <h4>What I did</h4>
                 <p>
-                  As Product Lead, I worked with the Walmart Home team to design
-                  & build this interactive coffee maker finder.
+                  As <b>Product Lead</b>, I worked with the Walmart Home team to design & build
+                  a more humanized way to shop for coffee makers.
                 </p>
 
                 <p>
@@ -804,7 +802,7 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Product Lead, I worked with the Walmart Baby team to design &
+                  As <b>Product Lead</b>, I worked with the Walmart Baby team to design &
                   build this interactive car seat finder for kids of all ages.
                 </p>
 
@@ -996,8 +994,8 @@ const Card = () => {
               <div className="main__content">
                 <h4>What I did</h4>
                 <p>
-                  As Product Lead, I worked with the Walmart Home team to make
-                  online paint shopping more humanized and inspirational.
+                  As <b>Product Lead</b>, I worked with the Walmart Home team to make
+                  shopping for paint more humanized and inspirational.
                 </p>
                 <p>
                   Using eko’s tech, we helped DIYers curate top colors & imagine

@@ -351,7 +351,7 @@ const About = () => {
                   <p>
                     I’m driven by a desire to humanize our collective experience
                     of the internet. I believe the convergence of storytelling & technology creates a universal
-                    language that furthers our understanding of humanity.
+                    language that furthers our shared understanding of humanity.
                   </p>
                   <p>
                     By building digital experiences that reimagine what online
@@ -474,14 +474,10 @@ const About = () => {
                 </button>
                 <div className="accordion-content">
                   <p>
-                    Something like that! Over 50% of pages on the internet are
-                    commerce-related, so it feels like a good place to start.
-                  </p>
-                  <p>
-                    My current projects focus on making online shopping a more
+                    Something like that! My current projects focus on making online shopping a more
                     human experience. It’s my hope that by facilitating more
                     human behaviors in digital spaces, we’ll set the internet
-                    back on a course to realize its limitless potential.
+                    on a course to realize its limitless potential.
                   </p>
                 </div>
               </div>

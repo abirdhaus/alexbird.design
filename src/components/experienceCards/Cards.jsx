@@ -309,7 +309,7 @@ const Card = () => {
         <h3>Style Guide</h3>
 
         <p>
-          Shop with a fashion expert, and discover new
+          Shop with a fashion expert, & find new
           styles for different occasions.
         </p>
       </div>
@@ -323,7 +323,7 @@ const Card = () => {
 
         <h3>Fly with Breeze</h3>
 
-        <p>Order healthy & delicious airport food on-the-go with this new consumer brand & service.
+        <p>Reimagine airport food with this new consumer brand & service.
         </p>
       </div>
 
@@ -338,7 +338,7 @@ const Card = () => {
         <h3>Baby Gift Finder</h3>
 
         <p>
-          Shop with an expert mom, and build the perfect gift for making memories
+          Build the perfect gift for making memories
           with baby.
         </p>
       </div>
@@ -350,10 +350,10 @@ const Card = () => {
           <img src="./images/Square-3.png" alt="" />
         </div>
 
-        <h5>Sidequest of Gwen Griffin</h5>
+        <h3>Wizard Sidequest</h3>
 
         <p>
-          Manifest a wizard’s nest in this branded episode of an award-winning
+          Manifest the nest in this branded episode of an
           interactive series.
         </p>
       </div>
@@ -394,7 +394,7 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As UX Lead for Walmart's 2021 fall fashion campaign, I concepted & designed
+                  As <b>UX Lead</b> for Walmart's 2021 fall fashion campaign, I concepted & designed
                   this interactive lookbook experience featuring{" "}
                   <a
                     href="https://en.wikipedia.org/wiki/Brandon_Maxwell"
@@ -490,7 +490,7 @@ const Card = () => {
             >
               <div className="main__content">
                 <h4>What I did</h4>
-                <p> As Product Designer, I explored the airport problem space to design a consumer service that delivers healthy food options to on-the-go travellers. I created the flows, wireframes, prototypes, UI, and
+                <p> As <b>Product Designer</b>, I explored the airport problem space to design a consumer service that delivers healthy food options to on-the-go travellers. I created the flows, wireframes, prototypes, UI, and
                   tech specs required to ship & deliver the{" "}
                   <a
                     href="https://apps.apple.com/us/app/fly-with-breeze/id1476095831"
@@ -505,7 +505,7 @@ const Card = () => {
                   </a>
                   .</p>
                 <p>
-                  As Creative Director for{" "}
+                  As <b>Creative Director</b> for{" "}
                   <a
                     href="https://www.instagram.com/flywithbreeze/"
                     target="_blank"
@@ -725,14 +725,14 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As UX Lead, I concepted & designed this first-of-its kind finder starring{" "}
+                  As <b>UX Lead</b> & <b>Creative Director</b>, I concepted & created this first-of-its kind finder starring{" "}
                   <a
                     href="https://www.instagram.com/tiamowry/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ textDecoration: "none" }}
                   >
-                    <u>Tia Mowry</u>. </a> I created the user flow, wireframes, prototype, and UI to ship this guided shopping experience. 
+                    <u>Tia Mowry</u>. </a> I designed the user flow, wireframes, prototype, identity, and UI to ship this guided shopping experience.
                   
                   
                 </p>
@@ -836,7 +836,7 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As Creative Director, I concepted & designed this branded
+                  As <b>UX Lead</b> & <b>Creative Director</b>, I concepted & designed this branded
                   sidequest to accompany eko’s Telly award-winning original series,{" "}
                   <a
                     href="https://video.eko.com/shows/the-choice-is-yours/wizard-school-dropout/"
@@ -851,7 +851,9 @@ const Card = () => {
                 <p>
                   I directed studio production & dev teams to deliver this
                   integrated brand experience, which was engaged and completed
-                  at the same rates as the series itself. Read more about it on{" "}
+                  at the same rates as the series itself. 
+                  
+                  <p>Read more about it on{" "}
                   <a
                     href="https://blog.helloeko.com/consumer-first-advertising-lessons-from-a-branded-sidequest-405363597e44?gi=fdd5b3d55f8f"
                     target="_blank"
@@ -867,7 +869,7 @@ const Card = () => {
                   >
                     Variety
                   </a>
-                  .
+                  .</p>
                 </p>
               </div>
 
