@@ -507,12 +507,12 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As <b>Product Lead</b>, I worked with the Walmart Pets team to design
+                  As <b>Product Lead</b>, I worked with Walmart's Pets team to design
                   & build this interactive pet gift finder.
                 </p>
 
                 <p>
-                  Recommending over 800+ dog & cat products, this delightful experience
+                  Recommending over 800+ dog & cat products, this pawesome experience
                   answered 12+ unique customer needstates, resulting in a 45% clickthrough rate that converted 24% of engaged users to shop.
                 </p>
               </div>
@@ -611,7 +611,7 @@ const Card = () => {
               <div className="main__content">
                 <h4>What I did</h4>
                 <p>
-                  As <b>Product Lead</b>, I worked with the Walmart Home team to design & build
+                  As <b>Product Lead</b>, I worked with Walmart's Home team to design & build
                   a more humanized way to shop for coffee makers.
                 </p>
 
@@ -802,7 +802,7 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As <b>Product Lead</b>, I worked with the Walmart Baby team to design &
+                  As <b>Product Lead</b>, I worked with Walmart's Baby team to design &
                   build this interactive car seat finder for kids of all ages.
                 </p>
 
@@ -994,8 +994,8 @@ const Card = () => {
               <div className="main__content">
                 <h4>What I did</h4>
                 <p>
-                  As <b>Product Lead</b>, I worked with the Walmart Home team to make
-                  shopping for paint more humanized and inspirational.
+                  As <b>Product Lead</b>, I worked with Walmart's Home team to make
+                  paint shopping more humanized and inspirational.
                 </p>
                 <p>
                   Using eko’s tech, we helped DIYers curate top colors & imagine

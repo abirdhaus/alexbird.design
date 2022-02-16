@@ -725,7 +725,7 @@ const Card = () => {
                 <h4>What I did</h4>
 
                 <p>
-                  As <b>UX Lead</b> & <b>Creative Director</b>, I concepted & created this first-of-its kind finder starring{" "}
+                  As <b>UX Lead</b> & <b>Creative Director</b>, I concepted & created this first-of-its-kind finder starring{" "}
                   <a
                     href="https://www.instagram.com/tiamowry/"
                     target="_blank"
@@ -850,7 +850,7 @@ const Card = () => {
 
                 <p>
                   I directed studio production & dev teams to deliver this
-                  integrated brand experience, which was engaged and completed
+                  integrated brand experience, which was engaged with and completed
                   at the same rates as the series itself. 
                   
                   <p>Read more about it on{" "}
