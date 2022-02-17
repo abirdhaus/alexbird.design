@@ -338,7 +338,7 @@ const Card = () => {
         <h3>Baby Gift Finder</h3>
 
         <p>
-          Build the perfect gift for making memories
+          Build your perfect gift for making memories
           with baby.
         </p>
       </div>
@@ -353,7 +353,7 @@ const Card = () => {
         <h3>Wizard Sidequest</h3>
 
         <p>
-          Manifest the nest in this branded episode of an
+          Manifest a nest in this brand episode of an
           interactive series.
         </p>
       </div>

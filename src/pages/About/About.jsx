@@ -375,8 +375,8 @@ const About = () => {
                 <div className="accordion-content">
                   <p>
                     I grew up gaming on handhelds and consoles, exploring
-                    digital worlds tucked away in tiny plastic cartridges. My
-                    parents were early dial-up adopters, so I got onto the
+                    digital worlds tucked away in tiny plastic cartridges. </p>
+                   <p> My parents were early dial-up adopters, so I got onto the
                     internet early enough to remember how it used to be — a wild
                     west of beautiful nerddom and chaos.
                   </p>
