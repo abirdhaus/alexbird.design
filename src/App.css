@@ -67,8 +67,8 @@ h4 {
 }
 
 p {
-  font-size: 1.3rem;
-  line-height: 1.8rem;
+  font-size: 1.7rem;
+  line-height: 2.0rem;
 }
 
 .section {
@@ -116,8 +116,8 @@ p {
   }
 
   p {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
   }
   .resume>img{
     height: 150vh;
@@ -135,7 +135,7 @@ p {
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     line-height: 2.5rem;
   }
 
@@ -163,7 +163,7 @@ p {
 
   p {
     font-size: 2.5rem;
-    line-height: 2.5rem !important;
+    line-height: 3rem !important;
   }
   .resume>img{
     height: 100vh;

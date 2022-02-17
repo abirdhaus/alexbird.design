@@ -4,8 +4,6 @@
 }
 
 .main__content__col1 p {
-  font-size: 2.5rem;
-  line-height: 2.8rem;
   font-weight: 400;
   color: var(--secondary);
   margin-bottom: 3rem !important;
@@ -136,9 +134,7 @@
   will-change: opacity, max-height;
 }
 .accordion .accordion-content p {
-  font-size: 2.5rem;
   font-weight: 400;
-  line-height: 3.2rem;
   margin-top: 1rem;
   color: var(--secondary);
 }
